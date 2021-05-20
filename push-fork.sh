@@ -5,11 +5,12 @@ git \
         upstream
 
 git \
-    checkout
+    checkout \
+        -b SuperScratch
 
 git \
     merge \
-        upstream/develop
+        upstream/SuperScratch
 
 git \
     add \
